@@ -8,8 +8,9 @@ There are a few technologies and/or softwares to be compared as follows:
 
 - **[Docker](https://www.docker.com)**: a container-based virtualization solution that helps to develop, deploy and run application seamlessly. A container provides an independent environment to run an application, but under the same operating system. It takes almost no more resource than running the application natively. The diagrams below are taken from a research [paper](https://domino.research.ibm.com/library/cyberdig.nsf/papers/0929052195DD819C85257D2300681E7B/$File/rc25482.pdf) from IBM.
 	- CPU performance tested using [LINPACK](http://www.netlib.org/linpack/)
-	![Linpack performance]()
+	![Linpack performance](img/linpack.png)
 	- Sequential I/O throughput
+	![Sequential IO](img/sequence_io.png)
 - Virtual Machine (VM): 
 
 ## 
