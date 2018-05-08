@@ -13,4 +13,8 @@ There are a few technologies and/or softwares to be compared as follows:
 	![Sequential IO](img/sequence_io.png)
 - Virtual Machine (VM): 
 
-## 
+## Writing `Dockerfile`
+
+## Licence
+
+[GNU General Public Licence 3.0](LICENSE)
