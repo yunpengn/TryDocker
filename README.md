@@ -19,7 +19,11 @@ Below are some tips for writing a `Dockerfile` with best practices:
 
 - Do not include irrelevant files (_or libraries, tools_) inside the build context (the working directory when running the `docker build` command). This will result in a larger image size.
 - Use a `.dockerignore` file to exclude those irrelevant files.
-- 
+- Make sure the generated container is self-contained. People should be able to use it with minimum setup.
+- Create the right number of layers rather than minimize the number of layers (due to multi-stage builds).
+- Use `apt-get install -y` rather than `apt-get upgrade`.
+- Always combine `apt-get update` with `apt-get install` in the same `RUN` statement.
+- Prefer `COPY` over `ADD`, unless you need automatic tarball extraction.
 
 ## Acknowledgements
 
