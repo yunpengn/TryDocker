@@ -1,6 +1,6 @@
 # TryDocker
 
-This repository helps me to learn Docker. It contains some examples, which could be useful to beginners.
+This repository helps me to learn [Docker](https://www.docker.com). It contains some explanations, which could be useful to beginners. It also contains an example on how to setup a simple [Rails](https://rubyonrails.org) web application with [PostgreSQL](https://postgresql.org) using Docker.
 
 ## Why Docker?
 
