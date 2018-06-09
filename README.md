@@ -30,6 +30,7 @@ Below are some tips for writing a `Dockerfile` with best practices:
 - [Docker Official Documentation](https://docs.docker.com)
 	- [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 - [An Updated Performance Comparison of Virtual Machines and Linux Containers](https://domino.research.ibm.com/library/cyberdig.nsf/papers/0929052195DD819C85257D2300681E7B/$File/rc25482.pdf)
+- [Running a Rails application with Docker](https://docs.docker.com/compose/rails/#rebuild-the-application)
 
 ## Licence
 
